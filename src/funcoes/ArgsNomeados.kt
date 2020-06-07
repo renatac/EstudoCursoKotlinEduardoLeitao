@@ -7,4 +7,5 @@ fun relacaoDeTrabalho(chefe: String, funcionario: String): String {
 fun main(args: Array<String>) {
     println(relacaoDeTrabalho("João", "Maria"))
     println(relacaoDeTrabalho(funcionario = "João", chefe = "Maria"))
+    println(relacaoDeTrabalho(chefe = "Maria", funcionario = "João"))
 }

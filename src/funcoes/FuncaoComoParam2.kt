@@ -16,5 +16,5 @@ fun comTresLetras(nome: String): Boolean {
 
 fun main(args: Array<String>) {
     val nomes = listOf("Ana", "Pedro", "Bia", "Gui", "Rebeca")
-    println(filtrar(nomes, ::comTresLetras))
+    println(filtrar(nomes, ::comTresLetras))                         //::fun
 }
