@@ -8,7 +8,7 @@ fun main(args: Array<String>) {
     b -= 4 // b = b - 4
     b *= 2 // b = b * 2
     b /= 2 // b = b / 2
-    b %= 2
+    b %= 2 // b = b % 2
 
     println(b)
 }

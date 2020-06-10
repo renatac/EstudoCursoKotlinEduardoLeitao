@@ -1,5 +1,7 @@
 package fundamentos.operadores
 
+//Operadores aritméticos
+
 fun main(args: Array<String>) {
     val (v1, v2, v3, v4) = listOf(3, 5, 1, 15)
 
