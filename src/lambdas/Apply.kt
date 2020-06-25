@@ -1,6 +1,6 @@
 package lambdas
 
-//A fun apply recebe como parâmetro um lâmbida
+//A fun apply recebe como parâmetro um lambda
 //Obs que no apply não temos o it como é o caso do let
 
 class Calculadora2 {

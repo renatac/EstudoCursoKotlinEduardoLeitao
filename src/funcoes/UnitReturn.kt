@@ -29,7 +29,7 @@ fun main(args: Array<String>) {
     imprimeMaior3(2, 1)
     imprimeMaior4(2, 1)
     //Como o Unit é um objeto, ele tem algumas funcionalidades dentro dele, logo
-    //Então posso chamar a função lâmbida run
+    //Então posso chamar a função lambda run
                               //Boolen                //this sobre o Boolean
     imprimeMaior5(2, 1).run { 2 > 4 }.run { print("Resultado = $this") }
     //Ou seja, Unit é um objeto e pode ter algumas funcionalidades, como por ex fazer o encadeamento

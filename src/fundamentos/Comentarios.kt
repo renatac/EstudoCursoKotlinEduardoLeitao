@@ -3,7 +3,8 @@ package fundamentos
 /**
  * Só para dizer que o Kotlin suporta o KDoc... :)
  *
- * @param args lista de parâmetros passados por linha de comando
+ *
+ *  @param args lista de parâmetros passados por linha de comando       //Esse @param só tá podendo ficar aqui!
  */
 fun main(args: Array<String>) {
     // Comentário de uma linha

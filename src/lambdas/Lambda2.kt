@@ -27,8 +27,8 @@ class Calculadora {
     }
 
     //sobrecarga da função calcular
-    //Usando lâmbida fica mais fácil
-    //o parâmetro recebe uma função lâmbida , o que resolve tudo!
+    //Usando lambida fica mais fácil
+    //o parâmetro recebe uma função lambda , o que resolve tudo!
     fun calcular(a: Int, b: Int, operacao: (Int, Int) -> Int): Int {
         return operacao(a, b)
     }

@@ -9,7 +9,7 @@ class Produto(val nome: String, val preco: Double)  //não é chaves e não prec
                                                     // Esses são os atibutos. Não esquecer da vírgula! Em java são campos.
                                                     // Toda essa declaração são propriedades.
 
-infix fun Produto.maisCaroQue(produto: Produto): Boolean = this.preco > produto.preco  //Corpo de Ecpressão
+infix fun Produto.maisCaroQue(produto: Produto): Boolean = this.preco > produto.preco  //Corpo de Expressão
 
 fun main(args: Array<String>) {
     val p1 = Produto("Ipad", 2349.00)

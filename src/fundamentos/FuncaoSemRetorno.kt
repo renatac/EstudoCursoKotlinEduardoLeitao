@@ -1,5 +1,7 @@
 package fundamentos
 
+//fun sem retorno
+
 fun imprimirSoma(a: Int, b: Int) {
     println(a + b)
 }
