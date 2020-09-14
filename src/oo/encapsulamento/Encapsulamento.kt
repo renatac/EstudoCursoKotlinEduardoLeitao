@@ -25,7 +25,7 @@ open class Capsula {
 class CapsulaFilha : Capsula() {
     fun verificarAcesso() {
         // println(dentroDoObjeto)
-        // println(Capsula().vaiPorHeranca)
+        //println(Capsula().vaiPorHeranca)
         println(vaiPorHeranca)
         println(dentroDoProjeto)
         println(publico)
